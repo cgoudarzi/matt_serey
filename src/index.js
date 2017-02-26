@@ -12,6 +12,7 @@ app.engine('hbs', exphbs({
   extname:       '.hbs'
 }));
 
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -22,15 +23,12 @@ app.set('views', __dirname + '/views');
 //Serve static assetts
 app.use(express.static(__dirname + "/public"));
 
+
 require('./models/db');
 require('./models/submission');
 
 app.use('/', require('./controllers/home'));
 
-// viewed at http://localhost:8080
-// app.get('/', function(req, res) {
-//     res.render('home');
-// });
 
 app.listen(8000);
 

@@ -5,6 +5,26 @@ var express     = require('express');
     helper      = require('sendgrid').mail;
     fs          = require('fs')
 
+Home.route('/reel-1')
+  .get(function(req, res, next) {
+    res.render('reel-1')
+  })
+
+Home.route('/cv')
+  .get(function(req, res, next) {
+    res.render('cv')
+  })
+
+Home.route('/writing')
+  .get(function(req, res, next) {
+    res.render('writing')
+  })
+
+Home.route('/work')
+  .get(function(req, res, next) {
+    res.redirect('/reel-1')
+  })
+
 Home.route('/submissions')
   .get(function(req, res, next) {
     Submission.find({}, function(err, submissions) {
@@ -56,6 +76,11 @@ Home.route('/contact')
       console.log(response.body);
       console.log(response.headers);
     })
+  })
+
+Home.route('/about-me')
+  .get(function(req, res, next) {
+    res.render('about')
   })
 
 Home.route('/')
