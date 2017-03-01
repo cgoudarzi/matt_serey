@@ -1,0 +1,210 @@
+html body {
+    background-color: #000000;
+
+}
+
+ul li {
+  color: #00ff00;
+  list-style: none;
+}
+
+@media (max-width: 480px) {
+  .name-first {
+  color: #ff0000;
+  font-family: 'Vampiro One', cursive;
+  font-size: 440%;
+  margin-left: 22.5%;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+  .name-last {
+    color: #ff0000;
+    font-family: 'Vampiro One', cursive;
+    font-size: 440%;
+    margin-left: 21%;
+    margin-top: -4%;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+
+  .title {
+    color: #ba55d3;
+    font-family: 'Vampiro One', cursive;
+    font-size: 220%;
+    margin-left: 5%;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  }
+
+  .reel-title {
+    color: #00ff00;
+    font-family: 'Vampiro One', cursive;
+    font-size: 200%;
+    padding-bottom: 15%;
+    padding-top: 20%;
+    -webkit-animation: neon3 3s ease-in-out infinite alternate;
+    -moz-animation: neon3 3s ease-in-out infinite alternate;
+    animation: neon3 3s ease-in-out infinite alternate;
+  }
+
+  .embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%;
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+  } 
+  .embed-container iframe, 
+  .embed-container object, 
+  .embed-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+  }
+
+  @-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 60px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 0px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF1177, 0 0 25px #FF1177, 0 0 35px #FF1177, 0 0 45px #FF1177, 0 0 50px #FF1177;
+    }
+  }
+
+  @-webkit-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #da70d6, 0 0 70px #da70d6, 0 0 80px #da70d6, 0 0 100px #da70d6, 0 0 150px #da70d6;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #da70d6, 0 0 35px #da70d6, 0 0 40px #da70d6, 0 0 50px #da70d6, 0 0 75px #da70d6;
+    }
+  }
+
+  @-webkit-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #7fff00, 0 0 70px #7fff00, 0 0 80px #7fff00, 0 0 100px #7fff00, 0 0 150px #7fff00;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #7fff00, 0 0 35px #7fff00, 0 0 40px #7fff00, 0 0 50px #7fff00, 0 0 75px #7fff00;
+    }
+  } 
+}
+
+
+@media (min-width: 755px) {
+  .name-first {
+  color: #ff0000;
+  font-family: 'Vampiro One', cursive;
+  font-size: 820%;
+  margin-left: 38.5%;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+  .name-last {
+    color: #ff0000;
+    font-family: 'Vampiro One', cursive;
+    font-size: 820%;
+    margin-left: 37%;
+    margin-top: -4%;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+
+  .title {
+    color: #ba55d3;
+    font-family: 'Vampiro One', cursive;
+    font-size: 600%;
+    margin-left: 23%;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  }
+
+  .reel-title {
+    color: #00ff00;
+    font-family: 'Vampiro One', cursive;
+    font-size: 449.5%;
+    margin-left: 8%;
+    margin-bottom: 4%;
+    -webkit-animation: neon3 2s ease-in-out infinite alternate;
+    -moz-animation: neon3 2s ease-in-out infinite alternate;
+    animation: neon3 2s ease-in-out infinite alternate;
+  }
+
+  .cv-text {
+    color: #3ABFE3;
+    font-family: 'Vampiro One', cursive;
+    -webkit-animation: neon4 2s ease-in-out infinite alternate;
+    -moz-animation: neon4 2s ease-in-out infinite alternate;
+    animation: neon4 2s ease-in-out infinite alternate;
+  }
+
+  .name {
+    margin-left: 40%;
+  }
+
+  .w-d-credits {
+    margin-left: 27%;
+  }
+
+  .school-font {
+    color: #00ff00;
+  }
+
+  input {
+    width: 65%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  textarea {
+    width: 65%;
+  }
+
+  @-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 60px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 0px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF1177, 0 0 25px #FF1177, 0 0 35px #FF1177, 0 0 45px #FF1177, 0 0 50px #FF1177;
+    }
+  }
+
+  @-webkit-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #da70d6, 0 0 70px #da70d6, 0 0 80px #da70d6, 0 0 100px #da70d6, 0 0 150px #da70d6;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #da70d6, 0 0 35px #da70d6, 0 0 40px #da70d6, 0 0 50px #da70d6, 0 0 75px #da70d6;
+    }
+  }
+
+  @-webkit-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #7fff00, 0 0 70px #7fff00, 0 0 80px #7fff00, 0 0 100px #7fff00, 0 0 150px #7fff00;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #7fff00, 0 0 35px #7fff00, 0 0 40px #7fff00, 0 0 50px #7fff00, 0 0 75px #7fff00;
+    }
+  }
+
+  @-webkit-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff, 0 0 150px #00ffff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00ffff, 0 0 35px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 75px #00ffff;
+    }
+  }
+}
+
+
+
+
+

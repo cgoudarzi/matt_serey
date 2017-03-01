@@ -15,10 +15,10 @@ Home.route('/cv')
     res.render('cv')
   })
 
-Home.route('/writing')
-  .get(function(req, res, next) {
-    res.render('writing')
-  })
+// Home.route('/writing')
+//   .get(function(req, res, next) {
+//     res.render('writing')
+//   })
 
 Home.route('/work')
   .get(function(req, res, next) {
