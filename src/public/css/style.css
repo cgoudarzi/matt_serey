@@ -274,10 +274,28 @@ ul li {
     font-size: 85%;
   }
 
+  .contact-text {
+    font-family: 'Monoton', fantasy;
+    font-size: 90%;
+    color: #C91AC4;
+    margin-top: 2%;
+  }
+
+  .button {
+    margin-left: 77%;
+    margin-top: 1%;
+    width: 6%;
+    font-family: 'Monoton', fantasy;
+    padding-top: .5%;
+    padding-bottom: .5%; 
+    padding-right: 1%;
+    padding-left: 1%;
+    background-color: #C91AC4;
+  }
+
   input {
     width: 65%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+
   }
 
   textarea {
