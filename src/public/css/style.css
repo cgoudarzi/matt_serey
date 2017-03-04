@@ -167,6 +167,16 @@ ul li {
 
 
 @media (min-width: 755px) {
+  .navbar {
+    margin-left: 30%;
+  }
+
+  .nav-link {
+    font-family: 'Monoton', fantasy;
+    font-size: 90%;
+    color: #00ff00;
+  }
+
   .name-first {
   color: #ff0000;
   font-family: 'Vampiro One', cursive;
@@ -274,6 +284,11 @@ ul li {
     font-size: 85%;
   }
 
+  .arrow-right {
+    margin-bottom: -20%;
+    margin-top: -5%;
+  }
+
   .contact-text {
     font-family: 'Monoton', fantasy;
     font-size: 90%;
@@ -301,6 +316,7 @@ ul li {
   textarea {
     width: 65%;
   }
+
 
   @-webkit-keyframes neon1 {
     from {
