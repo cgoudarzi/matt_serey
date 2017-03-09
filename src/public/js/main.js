@@ -1,5 +1,3 @@
-console.log(window.location.href);
-
 function linkColor (link) {
     if (link === 'http://localhost:8000/') {
     document.getElementById('home').style.color="#C91AC4";
@@ -14,4 +12,6 @@ function linkColor (link) {
   }
 }
 
+
 linkColor(window.location.href);
+

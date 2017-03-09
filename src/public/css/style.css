@@ -3,6 +3,10 @@ html body {
 
 }
 
+.test {
+  color: white;
+}
+
 ul li {
   color: #00ff00;
   list-style: none;
@@ -168,7 +172,7 @@ ul li {
 
 @media (min-width: 755px) {
   .navbar {
-    margin-left: 32%;
+    margin-left: 35%;
   }
 
   .nav-link {
@@ -286,7 +290,7 @@ ul li {
 
   .arrow-right {
     margin-bottom: -20%;
-    margin-top: -5%;
+    margin-top: -2%;
   }
 
   .contact-text {
@@ -306,6 +310,10 @@ ul li {
     padding-right: 1%;
     padding-left: 1%;
     background-color: #C91AC4;
+  }
+
+  .form-top {
+    margin-top: 10%;
   }
 
   input {
