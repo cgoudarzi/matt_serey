@@ -302,6 +302,11 @@ ul li {
     margin-top: -2%;
   }
 
+  .cont-arrow {
+    margin-left: 6%;
+    margin-top: 4%;
+  }
+
   .contact-text {
     font-family: 'Monoton', fantasy;
     font-size: 90%;
@@ -323,6 +328,10 @@ ul li {
 
   .form-top {
     margin-top: 10%;
+  }
+
+  .ig-icon {
+    margin-left: 8%;
   }
 
   input {
