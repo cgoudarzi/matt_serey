@@ -12,6 +12,17 @@ function linkColor (link) {
   }
 }
 
-
 linkColor(window.location.href);
+
+$(".ig-icon").hover(function() {
+  $(this).toggleClass('ig-shadow');
+});
+
+$(".yt-icon").hover(function() {
+  $(this).toggleClass('youtube-shadow');
+});
+
+$(".vimeo-icon").hover(function() {
+  $(this).toggleClass('vimeo-shadow');
+});
 

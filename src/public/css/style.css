@@ -132,6 +132,28 @@ ul li {
     font-size: 70%;
   }
 
+  .cont-arrow {
+    width: 4500%;
+    height: 4500%;
+    padding-left: -10%;
+    transform: rotate(90deg);
+  }
+
+  .form-top {
+    padding-top: 105%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .contact-text {
+    font-family: 'Monoton', fantasy;
+    font-size: 120%;
+    color: #C91AC4;
+    margin-top: 6%;
+  }
+
   @-webkit-keyframes neon1 {
     from {
       text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 60px #FF1177;
@@ -334,9 +356,23 @@ ul li {
     margin-left: 8%;
   }
 
+  .ig-shadow {
+    -webkit-filter: drop-shadow(2px 2px 2px #da70d6);
+    filter: box-shadow(2px 2px 2px #da70d6);
+  }
+
+  .youtube-shadow {
+    -webkit-filter: drop-shadow(2px 2px 2px #FF1177);
+    filter: box-shadow(2px 2px 2px #FF1177);
+  }
+
+  .vimeo-shadow {
+    -webkit-filter: drop-shadow(2px 2px 2px #00ffff);
+    filter: box-shadow(2px 2px 2px #00ffff);
+  }
+
   input {
     width: 65%;
-
   }
 
   textarea {
